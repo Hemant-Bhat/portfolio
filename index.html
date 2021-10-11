@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en"  id="home">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Portfolio - Hemant Bhat</title>
+</head>
+
+<body onload="onloadFun()">
+    <div id="preload">
+        <div class="loadbody">
+          <div class="load">
+            <h1 style="color: white; text-align: center;">H</h1>
+          </div>
+          <br /><br />
+          <h2 style="color: white; margin-top: 20px;font-family: Arial; text-shadow: 0 0 16px var(--color-word),0 0 20px var(--color-word)">
+            Please wait...
+          </h2>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <h1>Port<span class="color-word">folio</span></h1>
+            </div>
+            <div class="nav-right">
+                <i class="bi bi-list" onclick="openMenu()"></i>
+                <ul id="option">
+                    <i class="bi bi-x-lg" onclick="closeMenu()"></i>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <div class="follow" type="menu-follow">
+                        <h1 style="margin-bottom: 20px;">FOLLOW</h1>
+                        <a href="https://github.com/Hemant-Bhat" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/HemantBhat143/" target="_blank">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hemant__bhat/" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hemant-bhat" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="slide">
+        <div class="slide-content">
+        <div class="slide-left-content" data-aos="fade-right">
+            <h1>HELLO,</h1>
+            <h1>I AM <span class="color-word">HEMANT</span></h1>
+            <p>I am a Student in Computer Science & my interest in Web Development & Android app development. In this porfolio brief information about me. </p>
+        </div>
+            <div class="slide-right-content" data-aos="fade-left">
+                <img src="img/profile.png" alt="">
+            </div>
+        
+    </div>
+    </div>
+    <div class="container">
+        <h1 id="skills" class="id-h1">MY <span class="color-word">SKILLS</span></h1>
+        <div class="skills" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-offset="300">
+            <div class="skill" data-aos="flip-left" >
+                <h1>HTML</h1>
+            </div>
+            <div class="skill" data-aos="flip-left" >
+                <h1>CSS</h1>
+            </div>
+            <div class="skill" data-aos="flip-left" >
+                <h1>JAVASCRIPT</h1>
+            </div>
+            <div class="skill" data-aos="flip-left" >
+                <h1>BOOTSTAP</h1>
+            </div>
+            <div class="skill" data-aos="flip-left" >
+                <h1>REACT JS</h1>
+            </div>
+            <div class="skill" data-aos="flip-left" >
+                <h1>C++</h1>
+            </div>
+            <div class="skill" data-aos="flip-left" >
+                <h1>PHP</h1>
+            </div>
+            <div class="skill" data-aos="flip-left" >
+                <h1>MYSQL</h1>
+            </div>
+        </div>
+        <h1 id="projects" class="id-h1">MY <span class="color-word">PROJECTS</span></h1>
+        <div class="projects">
+            <div class="project" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300">
+                <div class="image">
+                    <img src="img/image1.JPG" />
+                </div>
+                <div class="content">
+                    <h2 class="title">Sign in/Sign up Dialog Box</h2>
+                    <p class="snippest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab ipsa, modi
+                        at tempore ducimus in rerum voluptatibus provident cumque?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="project" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300">
+                <div class="image">
+                    <img src="img/image2.JPG" />
+                </div>
+                <div class="content">
+                    <h2 class="title">Webpage Preloader</h2>
+                    <p class="snippest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab ipsa,
+                        modi at tempore ducimus in rerum voluptatibus provident cumque?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="project" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300"> 
+                <div class="image">
+                    <img src="img/image3.JPG" />
+                </div>
+                <div class="content">
+                    <h2 class="title">Create List Items</h2>
+                    <p class="snippest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab
+                        ipsa, modi at tempore ducimus in rerum voluptatibus provident cumque?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            
+        </div>
+        <h1 id="contact" class="id-h1">GET IN <span class="color-word">TOUCH</span></h1>
+        <div class="contact">
+            <div class="form">
+                <input type="text" placeholder="Enter name..." data-aos="fade-right" data-aos-offset="300">
+                <input type="text" placeholder="Enter number..." data-aos="fade-right" data-aos-offset="300"> 
+                <input type="text" placeholder="Enter email..." data-aos="fade-right" data-aos-offset="200">
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="follow">
+            <a href="https://github.com/Hemant-Bhat" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.facebook.com/HemantBhat143/" target="_blank">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/hemant__bhat/" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/hemant-bhat" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+        <p>@Copyright 2021. All Right Reserved <i>by Hemant Bhat</i></p>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            offset: 200,
+            duration: 1000
+        });
+    </script>
+    <script>
+        // FOR PRELOADER
+        var preload = document.getElementById("preload");
+        function onloadFun() {
+          // alert("Loded");
+          preload.style.display = "none";
+        }
+      </script>
+</body>
+
+</html>
