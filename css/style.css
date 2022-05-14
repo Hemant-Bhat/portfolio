@@ -86,7 +86,8 @@ header nav .nav-right ul li a:hover{
     top: 0px;
     left: 0px;
     filter: blur(3px) brightness(1);
-    background: url('https://github.com/Hemant-Bhat/portfolio/blob/master/img/background1.jpg?raw=true') no-repeat center;
+    /* background: url('https://github.com/Hemant-Bhat/portfolio/blob/master/img/background1.jpg?raw=true') no-repeat center; */
+    background: linear-gradient(0deg, #ffde25, #000000, #00000054);
     background-size: 100% 100vh;
     border: 5px solid var(--color-word);
     border-radius: 0 0 30pc 30pc;
